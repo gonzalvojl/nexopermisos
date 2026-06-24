@@ -1,0 +1,312 @@
+{
+  "databaseVersion": "2026.06.24",
+  "legalRevisionDate": "2026-06-24",
+  "title": "Países con convenio",
+  "description": "Consulta visual orientativa de países y grupos de países con posibilidad de canje o régimen específico.",
+  "countries": [
+    {
+      "id": "eu_eea",
+      "name": "Unión Europea / EEE",
+      "flag": "🇪🇺",
+      "type": "UE / EEE",
+      "badge": "UE/EEE",
+      "status": "regimen_propio",
+      "abTest": "No procede como tercer país",
+      "cdTest": "Revisar régimen específico",
+      "summary": "Los permisos expedidos por Estados de la Unión Europea o del Espacio Económico Europeo tienen régimen propio. Pueden ser válidos mientras estén en vigor, sin perjuicio de renovación, sustitución o inscripción cuando proceda.",
+      "keyChecks": [
+        "Comprobar país emisor UE/EEE.",
+        "Comprobar vigencia del permiso.",
+        "Comprobar categoría equivalente.",
+        "Comprobar restricciones o códigos armonizados.",
+        "Comprobar residencia en España si procede."
+      ],
+      "professionalWarning": "No tratar como permiso extracomunitario. Revisar régimen específico UE/EEE."
+    },
+    {
+      "id": "andorra",
+      "name": "Andorra",
+      "flag": "🇦🇩",
+      "type": "Procedimiento específico",
+      "badge": "ESPEC.",
+      "status": "especial",
+      "abTest": "Canje equivalente si cumple requisitos",
+      "cdTest": "Revisar requisitos específicos",
+      "summary": "Los permisos expedidos en Andorra pueden ser canjeados por un permiso español equivalente si se cumplen los requisitos oficiales y el permiso fue obtenido antes de ser residente en España.",
+      "keyChecks": [
+        "Comprobar residencia en España.",
+        "Comprobar que el permiso está en vigor.",
+        "Comprobar fecha de obtención del permiso.",
+        "Comprobar que fue obtenido antes de ser residente en España.",
+        "Comprobar documentación exigida por DGT."
+      ],
+      "professionalWarning": "Debe revisarse la página oficial de DGT para confirmar requisitos, documentación y procedimiento vigente."
+    },
+    {
+      "id": "switzerland",
+      "name": "Suiza",
+      "flag": "🇨🇭",
+      "type": "Procedimiento específico",
+      "badge": "ESPEC.",
+      "status": "especial",
+      "abTest": "Canje equivalente si cumple requisitos",
+      "cdTest": "Revisar requisitos específicos",
+      "summary": "Los permisos expedidos en Suiza pueden ser canjeados por un permiso español equivalente si se cumplen los requisitos oficiales.",
+      "keyChecks": [
+        "Comprobar residencia en España.",
+        "Comprobar vigencia del permiso.",
+        "Comprobar fecha de obtención.",
+        "Comprobar equivalencia de categorías.",
+        "Comprobar documentación exigida."
+      ],
+      "professionalWarning": "Revisar siempre DGT antes de orientar el caso."
+    },
+    {
+      "id": "monaco",
+      "name": "Mónaco",
+      "flag": "🇲🇨",
+      "type": "Procedimiento específico",
+      "badge": "ESPEC.",
+      "status": "especial",
+      "abTest": "Canje equivalente si cumple requisitos",
+      "cdTest": "Revisar requisitos específicos",
+      "summary": "Los permisos expedidos en Mónaco pueden tener canje equivalente si se cumplen los requisitos oficiales y condiciones de residencia.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar residencia en España.",
+        "Comprobar vigencia.",
+        "Comprobar fecha de obtención.",
+        "Comprobar documentación oficial."
+      ],
+      "professionalWarning": "Caso de procedimiento específico. Confirmar en DGT antes de aplicar criterio."
+    },
+    {
+      "id": "japan",
+      "name": "Japón",
+      "flag": "🇯🇵",
+      "type": "Procedimiento específico",
+      "badge": "TRAD.",
+      "status": "especial_traduccion",
+      "abTest": "Canje equivalente si cumple requisitos",
+      "cdTest": "Revisar requisitos específicos",
+      "summary": "Los permisos expedidos en Japón pueden canjearse por equivalente español si cumplen requisitos. DGT indica la necesidad de traducción oficial para Japón.",
+      "keyChecks": [
+        "Comprobar residencia en España.",
+        "Comprobar vigencia del permiso.",
+        "Comprobar fecha de obtención.",
+        "Comprobar traducción oficial.",
+        "Comprobar documentación exigida."
+      ],
+      "professionalWarning": "Japón requiere especial atención por traducción oficial y documentación."
+    },
+    {
+      "id": "south_korea",
+      "name": "Corea del Sur",
+      "flag": "🇰🇷",
+      "type": "Procedimiento específico",
+      "badge": "TRAD.",
+      "status": "especial_traduccion",
+      "abTest": "Canje equivalente si cumple requisitos",
+      "cdTest": "Revisar requisitos específicos",
+      "summary": "Los permisos expedidos en Corea del Sur pueden canjearse por equivalente español si cumplen requisitos. DGT indica la necesidad de traducción oficial para Corea.",
+      "keyChecks": [
+        "Comprobar residencia en España.",
+        "Comprobar vigencia del permiso.",
+        "Comprobar fecha de obtención.",
+        "Comprobar traducción oficial.",
+        "Comprobar documentación exigida."
+      ],
+      "professionalWarning": "Corea del Sur requiere especial atención por traducción oficial y documentación."
+    },
+    {
+      "id": "united_kingdom",
+      "name": "Reino Unido",
+      "flag": "🇬🇧",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir comprobaciones adicionales",
+      "summary": "Reino Unido cuenta con acuerdo de reconocimiento y canje. Debe comprobarse fecha de expedición, residencia y validez del permiso.",
+      "keyChecks": [
+        "Comprobar permiso válido.",
+        "Comprobar fecha de expedición.",
+        "Comprobar residencia legal.",
+        "Comprobar categoría solicitada.",
+        "Comprobar condiciones del acuerdo vigente."
+      ],
+      "professionalWarning": "Revisar condiciones específicas del acuerdo y situación del titular."
+    },
+    {
+      "id": "morocco",
+      "name": "Marruecos",
+      "flag": "🇲🇦",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País incluido entre los convenios bilaterales de canje. Debe comprobarse residencia, fecha de obtención, vigencia y categoría.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar vigencia.",
+        "Comprobar fecha de obtención anterior a residencia.",
+        "Comprobar categoría A/B o profesional C/D.",
+        "Comprobar documentación DGT."
+      ],
+      "professionalWarning": "Las categorías profesionales pueden requerir pruebas adicionales."
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País con convenio de canje. DGT indica que algunos países permiten solicitud directa sin validación previa.",
+      "keyChecks": [
+        "Comprobar vigencia.",
+        "Comprobar residencia.",
+        "Comprobar fecha de obtención.",
+        "Comprobar categoría.",
+        "Comprobar si requiere validación previa."
+      ],
+      "professionalWarning": "Confirmar siempre en DGT la tramitación actualizada."
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País con convenio bilateral de canje. Debe comprobarse vigencia, residencia, fecha de obtención y categoría.",
+      "keyChecks": [
+        "Comprobar vigencia.",
+        "Comprobar residencia normal.",
+        "Comprobar fecha de obtención.",
+        "Comprobar equivalencia de categorías.",
+        "Comprobar documentación exigida."
+      ],
+      "professionalWarning": "No asumir canje automático sin verificar requisitos oficiales."
+    },
+    {
+      "id": "ecuador",
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País con convenio bilateral de canje. Requiere comprobación de vigencia, residencia y fecha de obtención.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar vigencia.",
+        "Comprobar residencia.",
+        "Comprobar fecha de obtención.",
+        "Comprobar categoría."
+      ],
+      "professionalWarning": "Revisar siempre tabla y procedimiento DGT."
+    },
+    {
+      "id": "peru",
+      "name": "Perú",
+      "flag": "🇵🇪",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País con convenio de canje. Puede permitir solicitud directa según procedimiento DGT vigente.",
+      "keyChecks": [
+        "Comprobar vigencia.",
+        "Comprobar residencia.",
+        "Comprobar fecha de obtención.",
+        "Comprobar categoría.",
+        "Comprobar documentación."
+      ],
+      "professionalWarning": "Confirmar en DGT si requiere validación previa o solicitud directa."
+    },
+    {
+      "id": "dominican_republic",
+      "name": "República Dominicana",
+      "flag": "🇩🇴",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País con convenio bilateral de canje. Deben revisarse condiciones, vigencia, residencia y categorías.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar vigencia.",
+        "Comprobar residencia.",
+        "Comprobar fecha de obtención.",
+        "Comprobar categoría y documentación."
+      ],
+      "professionalWarning": "Aplicar criterio prudente y revisar fuente oficial."
+    },
+    {
+      "id": "chile",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País con convenio bilateral de canje. Debe comprobarse vigencia, residencia, fecha de obtención y categoría.",
+      "keyChecks": [
+        "Comprobar vigencia.",
+        "Comprobar residencia normal.",
+        "Comprobar fecha de obtención.",
+        "Comprobar categoría.",
+        "Comprobar documentación DGT."
+      ],
+      "professionalWarning": "No basta el país: deben cumplirse todos los requisitos administrativos."
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País con convenio de canje. DGT lo incluye entre los países que pueden solicitar canje directo según el procedimiento digital indicado.",
+      "keyChecks": [
+        "Comprobar vigencia.",
+        "Comprobar residencia.",
+        "Comprobar fecha de obtención.",
+        "Comprobar categoría.",
+        "Comprobar trámite aplicable."
+      ],
+      "professionalWarning": "Confirmar procedimiento actual y requisitos oficiales."
+    },
+    {
+      "id": "brazil",
+      "name": "Brasil",
+      "flag": "🇧🇷",
+      "type": "Convenio bilateral",
+      "badge": "CONV.",
+      "status": "convenio",
+      "abTest": "Normalmente sin prueba, revisar DGT",
+      "cdTest": "Puede exigir pruebas adicionales",
+      "summary": "País incluido en los acuerdos o convenios bilaterales mencionados por DGT. Debe comprobarse residencia, vigencia, fecha de obtención y categoría.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar vigencia.",
+        "Comprobar residencia.",
+        "Comprobar fecha de obtención.",
+        "Comprobar categoría profesional o no profesional."
+      ],
+      "professionalWarning": "Las condiciones concretas deben verificarse en DGT antes de orientar el caso."
+    }
+  ]
+}
