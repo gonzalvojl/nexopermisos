@@ -1,8 +1,8 @@
 {
-  "databaseVersion": "2026.06.24-operativa.1",
+  "databaseVersion": "2026.06.24-prado.1",
   "legalRevisionDate": "2026-06-24",
   "title": "Países con convenio",
-  "description": "Base operativa orientativa sobre permisos extranjeros, canjes y validez en España. Incluye criterios prácticos de residencia, vigencia, canje, grupos A/B y C/D, documentación crítica y cautelas administrativa/penal. Debe contrastarse con DGT, Sede Electrónica y normativa vigente antes de cerrar criterio.",
+  "description": "Base operativa orientativa sobre permisos extranjeros, canjes y validez en España. Incluye criterios prácticos de residencia, vigencia, canje, grupos A/B y C/D, documentación crítica y cautelas administrativa/penal. Debe contrastarse con DGT, Sede Electrónica y normativa vigente antes de cerrar criterio. Incluye enlaces de referencia documental PRADO cuando existe ficha localizada.",
   "countries": [
     {
       "id": "eu_eea",
@@ -51,7 +51,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/ESP-FO-04002/index.html",
+      "permitModelCode": "ESP-FO-04002",
+      "permitModelDocumentTitle": "PERMISO DE CONDUCCIÓN ('E')",
+      "permitModelCountryCode": "ESP / UE",
+      "permitModelFormat": "Tarjeta · 86 × 54 mm",
+      "permitModelFirstIssued": "19/01/2013",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Referencia visual del formato español/UE. Para otros Estados UE/EEE, comparar estructura armonizada, categorías, códigos y vigencia del documento concreto.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye comprobación oficial ni examen del permiso original.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "andorra",
@@ -100,7 +117,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/AND-FO-02001/index.html",
+      "permitModelCode": "AND-FO-02001",
+      "permitModelDocumentTitle": "PERMÍS DE CONDUIR ('AND')",
+      "permitModelCountryCode": "AND",
+      "permitModelFormat": "Tarjeta · 85 × 54 mm",
+      "permitModelFirstIssued": "01/01/1990",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar formato general, país emisor, anverso/reverso, categorías y vigencia con la ficha PRADO.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "switzerland",
@@ -149,7 +183,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/CHE-FO-03001/index.html",
+      "permitModelCode": "CHE-FO-03001",
+      "permitModelDocumentTitle": "FÜHRERAUSWEIS / PERMIS DE CONDUIRE / LICENZA DI CONDURRE / DRIVING LICENCE ('CH')",
+      "permitModelCountryCode": "CHE",
+      "permitModelFormat": "Tarjeta · formato permiso suizo multilingüe",
+      "permitModelFirstIssued": "15/04/2023",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Modelo suizo reciente. Revisar idioma, formato del anverso, reverso, categorías, vigencia y restricciones.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "monaco",
@@ -198,7 +249,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/MCO-FO-03001/index.html",
+      "permitModelCode": "MCO-FO-03001",
+      "permitModelDocumentTitle": "PERMIS DE CONDUIRE ('MC')",
+      "permitModelCountryCode": "MCO",
+      "permitModelFormat": "Documento plegado · aprox. 222 × 105 mm",
+      "permitModelFirstIssued": "01/01/2000",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Atención: formato plegado, no tarjeta tipo UE. Comparar estructura, soporte, páginas, categorías y vigencia.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "japan",
@@ -248,7 +316,23 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "Sin ficha PRADO localizada",
+      "permitModelSourceUrl": "",
+      "permitModelCode": "",
+      "permitModelDocumentTitle": "Permiso japonés - revisar con documento original y traducción oficial",
+      "permitModelCountryCode": "JPN",
+      "permitModelFormat": "Pendiente de ficha visual oficial en PRADO",
+      "permitModelFirstIssued": "",
+      "permitModelStatus": "Sin ficha PRADO incorporada",
+      "permitModelUseNote": "Para Japón, priorizar traducción oficial al castellano, documento original, vigencia, categoría y fecha de obtención. No usar imágenes de internet sin fuente o licencia clara.",
+      "permitModelDisclaimer": "No hay ficha visual PRADO incorporada. La identificación documental debe apoyarse en el original, la traducción oficial y fuentes oficiales.",
+      "permitModelCheckpoints": [
+        "No hay ficha visual oficial incorporada en la app.",
+        "Comprobar documento original, traducción si procede, vigencia y categoría.",
+        "Evitar imágenes no verificadas o sin licencia clara.",
+        "Contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "south_korea",
@@ -298,7 +382,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/KOR-FO-03001/index.html",
+      "permitModelCode": "KOR-FO-03001",
+      "permitModelDocumentTitle": "(Driver's License)",
+      "permitModelCountryCode": "KOR",
+      "permitModelFormat": "Tarjeta · formato permiso de conducción",
+      "permitModelFirstIssued": "25/02/2020",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar formato, anverso/reverso, país emisor, categorías y traducción oficial cuando proceda.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "united_kingdom",
@@ -347,7 +448,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/GBR-FO-09001/index.html",
+      "permitModelCode": "GBR-FO-09001",
+      "permitModelDocumentTitle": "DRIVING LICENCE ('UK')",
+      "permitModelCountryCode": "GBR",
+      "permitModelFormat": "Tarjeta · 85 × 54 mm",
+      "permitModelFirstIssued": "06/07/2015",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar permiso ordinario, no provisional, con fecha de expedición, residencia legal, categorías y vigencia conforme al acuerdo aplicable.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "morocco",
@@ -398,7 +516,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/MAR-FO-01001/index.html",
+      "permitModelCode": "MAR-FO-01001",
+      "permitModelDocumentTitle": "PERMIS DE CONDUIRE",
+      "permitModelCountryCode": "MAR",
+      "permitModelFormat": "Tarjeta · 84 × 54 mm",
+      "permitModelFirstIssued": "01/01/2020",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar formato general, país emisor, soporte tarjeta, anverso/reverso, categorías, vigencia y datos del titular.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "argentina",
@@ -449,7 +584,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/ARG-FO-01001/index.html",
+      "permitModelCode": "ARG-FO-01001",
+      "permitModelDocumentTitle": "Licencia Nacional de Conducir",
+      "permitModelCountryCode": "ARG",
+      "permitModelFormat": "Tarjeta · 86 × 54 mm",
+      "permitModelFirstIssued": "01/01/2013",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar formato nacional, soporte tarjeta, categorías, vigencia y jurisdicción/emisor si aparece.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "colombia",
@@ -500,7 +652,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/COL-FO-01001/index.html",
+      "permitModelCode": "COL-FO-01001",
+      "permitModelDocumentTitle": "LICENCIA DE CONDUCCIÓN",
+      "permitModelCountryCode": "COL",
+      "permitModelFormat": "Tarjeta · 86 × 54 mm",
+      "permitModelFirstIssued": "01/01/2013",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar anverso/reverso, formato, categorías, vigencia y datos esenciales del documento.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "ecuador",
@@ -551,7 +720,23 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO",
+      "permitModelSourceUrl": "",
+      "permitModelCode": "",
+      "permitModelDocumentTitle": "Permiso de Ecuador - ficha PRADO no incorporada todavía",
+      "permitModelCountryCode": "ECU",
+      "permitModelFormat": "Pendiente de incorporar ficha visual oficial",
+      "permitModelFirstIssued": "",
+      "permitModelStatus": "Pendiente de verificación PRADO/fuente oficial",
+      "permitModelUseNote": "Mantener comprobación operativa por país emisor, vigencia, fecha de obtención, residencia y categoría. Añadir ficha PRADO si se localiza una fuente oficial visual.",
+      "permitModelDisclaimer": "Sin ficha visual incorporada. No usar imágenes no verificadas.",
+      "permitModelCheckpoints": [
+        "No hay ficha visual oficial incorporada en la app.",
+        "Comprobar documento original, traducción si procede, vigencia y categoría.",
+        "Evitar imágenes no verificadas o sin licencia clara.",
+        "Contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "peru",
@@ -602,7 +787,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/PER-FO-01001/index.html",
+      "permitModelCode": "PER-FO-01001",
+      "permitModelDocumentTitle": "LICENCIA DE CONDUCIR",
+      "permitModelCountryCode": "PER",
+      "permitModelFormat": "Tarjeta · 85 × 54 mm",
+      "permitModelFirstIssued": "09/07/2005",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar soporte tarjeta, anverso/reverso, vigencia, categorías y datos esenciales del titular.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "dominican_republic",
@@ -653,7 +855,23 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO",
+      "permitModelSourceUrl": "",
+      "permitModelCode": "",
+      "permitModelDocumentTitle": "Permiso de República Dominicana - ficha PRADO no incorporada todavía",
+      "permitModelCountryCode": "DOM",
+      "permitModelFormat": "Pendiente de incorporar ficha visual oficial",
+      "permitModelFirstIssued": "",
+      "permitModelStatus": "Pendiente de verificación PRADO/fuente oficial",
+      "permitModelUseNote": "Mantener comprobación operativa por país emisor, vigencia, fecha de obtención, residencia y categoría. Añadir ficha PRADO si se localiza una fuente oficial visual.",
+      "permitModelDisclaimer": "Sin ficha visual incorporada. No usar imágenes no verificadas.",
+      "permitModelCheckpoints": [
+        "No hay ficha visual oficial incorporada en la app.",
+        "Comprobar documento original, traducción si procede, vigencia y categoría.",
+        "Evitar imágenes no verificadas o sin licencia clara.",
+        "Contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "chile",
@@ -704,7 +922,24 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/CHL-FO-01001/index.html",
+      "permitModelCode": "CHL-FO-01001",
+      "permitModelDocumentTitle": "LICENCIA DE CONDUCTOR",
+      "permitModelCountryCode": "CHL",
+      "permitModelFormat": "Tarjeta · 86 × 54 mm",
+      "permitModelFirstIssued": "01/01/2003",
+      "permitModelStatus": "Ficha PRADO disponible",
+      "permitModelUseNote": "Comparar formato, anverso/reverso, categorías, vigencia y datos esenciales del titular.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "uruguay",
@@ -755,7 +990,23 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO",
+      "permitModelSourceUrl": "",
+      "permitModelCode": "",
+      "permitModelDocumentTitle": "Permiso de Uruguay - ficha PRADO no incorporada todavía",
+      "permitModelCountryCode": "URY",
+      "permitModelFormat": "Pendiente de incorporar ficha visual oficial",
+      "permitModelFirstIssued": "",
+      "permitModelStatus": "Pendiente de verificación PRADO/fuente oficial",
+      "permitModelUseNote": "Mantener comprobación operativa por país emisor, vigencia, fecha de obtención, residencia y categoría. Añadir ficha PRADO si se localiza una fuente oficial visual.",
+      "permitModelDisclaimer": "Sin ficha visual incorporada. No usar imágenes no verificadas.",
+      "permitModelCheckpoints": [
+        "No hay ficha visual oficial incorporada en la app.",
+        "Comprobar documento original, traducción si procede, vigencia y categoría.",
+        "Evitar imágenes no verificadas o sin licencia clara.",
+        "Contrastar régimen DGT/BOE y situación administrativa."
+      ]
     },
     {
       "id": "brazil",
@@ -806,8 +1057,26 @@
         "Traducción oficial o permiso internacional cuando resulte exigible."
       ],
       "officialSource": "DGT / Sede Electrónica DGT / BOE",
-      "lastChecked": "2026-06-24"
+      "lastChecked": "2026-06-24",
+      "permitModelSourceName": "PRADO - Consejo de la Unión Europea",
+      "permitModelSourceUrl": "https://www.consilium.europa.eu/prado/en/BRA-FO-07001/index.html",
+      "permitModelCode": "BRA-FO-07001",
+      "permitModelDocumentTitle": "CARTEIRA NACIONAL DE HABILITACAO _ SÃO PAULO",
+      "permitModelCountryCode": "BRA",
+      "permitModelFormat": "Papel · 85 × 120 mm · 2 páginas",
+      "permitModelFirstIssued": "01/01/2017",
+      "permitModelStatus": "Ficha PRADO disponible; existen varios modelos por estado/DETRAN",
+      "permitModelUseNote": "Brasil tiene múltiples modelos por estado/DETRAN. Usar PRADO como referencia y comprobar emisor, soporte, formato, categorías y vigencia del documento concreto.",
+      "permitModelDisclaimer": "Referencia documental orientativa. No sustituye verificación oficial ni examen físico del documento.",
+      "permitModelCheckpoints": [
+        "Comparar país emisor y tipo de documento con la ficha oficial.",
+        "Revisar anverso y reverso del permiso original.",
+        "Comprobar categoría autorizada, fecha de expedición y vigencia.",
+        "Comprobar restricciones, códigos o anotaciones visibles.",
+        "No basar la actuación solo en la apariencia: contrastar régimen DGT/BOE y situación administrativa."
+      ]
     }
   ],
-  "disclaimer": "Contenido informativo y operativo para apoyo profesional. No sustituye consulta oficial DGT/BOE ni valoración jurídica del caso concreto."
+  "disclaimer": "Contenido informativo y operativo para apoyo profesional. No sustituye consulta oficial DGT/BOE ni valoración jurídica del caso concreto.",
+  "pradoNotice": "PRADO es una fuente documental de referencia del Consejo de la Unión Europea. Sus fichas ayudan a comparar modelos de documentos, pero no sustituyen la comprobación oficial del documento original ni la consulta DGT/BOE."
 }
