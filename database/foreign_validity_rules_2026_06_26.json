@@ -1,0 +1,172 @@
+{
+  "databaseVersion": "2026.06.26-foreign-validity",
+  "legalRevisionDate": "2026-06-26",
+  "title": "Permisos extranjeros válidos para conducir en España",
+  "description": "Base orientativa e independiente sobre cuándo un permiso extranjero puede permitir conducir en España, cuándo deja de ser válido y qué comprobaciones realizar.",
+  "disclaimer": "Información orientativa. NexoPermisos no representa a ninguna entidad pública ni está vinculada, autorizada o respaldada por ninguna administración, institución, cuerpo policial ni entidad externa. Verificar siempre las fuentes públicas de referencia antes de tomar decisiones.",
+  "sourceReferences": [
+    {
+      "name": "DGT - Conducir con un permiso extranjero",
+      "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+    },
+    {
+      "name": "DGT - Canjes de permisos extranjeros",
+      "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/canjes-de-permisos/canjes-de-permisos-extranjeros/"
+    },
+    {
+      "name": "BOE - Reglamento General de Conductores, Real Decreto 818/2009",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481"
+    },
+    {
+      "name": "PRADO - Registro Público de Documentos Auténticos de Identidad y de Viaje en Red",
+      "url": "https://www.consilium.europa.eu/prado/es/search-by-document-country.html"
+    }
+  ],
+  "quickCards": [
+    {
+      "id": "eu_eea",
+      "title": "UE / EEE",
+      "subtitle": "Válido si está en vigor",
+      "status": "valid",
+      "badge": "VÁLIDO",
+      "icon": "🇪🇺",
+      "summary": "Los permisos expedidos por países de la Unión Europea o del Espacio Económico Europeo son válidos para conducir en España mientras estén vigentes.",
+      "checks": [
+        "Comprobar país emisor UE/EEE.",
+        "Comprobar que el permiso está vigente.",
+        "Comprobar categoría habilitante y códigos armonizados.",
+        "Comprobar restricciones, suspensión o pérdida de vigencia.",
+        "Si traslada residencia a España, revisar obligaciones de renovación, sustitución o canje cuando proceda."
+      ],
+      "result": "Puede conducir en España si el permiso está vigente y no existe restricción aplicable.",
+      "professionalWarning": "No confundir permiso UE/EEE válido con permiso de tercer país sujeto al plazo de seis meses."
+    },
+    {
+      "id": "international_permit",
+      "title": "Permiso internacional",
+      "subtitle": "Complementario · 1 año",
+      "status": "conditional",
+      "badge": "COMPLEMENTARIO",
+      "icon": "🌍",
+      "summary": "El permiso internacional es complementario y debe acompañarse del pasaporte y del permiso extranjero original. Tiene validez de un año.",
+      "checks": [
+        "Comprobar que se aporta permiso internacional.",
+        "Comprobar pasaporte o documento de identidad.",
+        "Comprobar permiso extranjero original.",
+        "Comprobar que el permiso internacional está vigente.",
+        "Comprobar que las categorías coinciden con el vehículo conducido."
+      ],
+      "result": "Puede servir como apoyo documental, pero no sustituye al permiso extranjero original.",
+      "professionalWarning": "El permiso internacional solo no basta: debe ir acompañado del permiso extranjero y pasaporte."
+    },
+    {
+      "id": "third_country_spanish_translation",
+      "title": "Tercer país",
+      "subtitle": "Castellano o traducción oficial",
+      "status": "conditional",
+      "badge": "6 MESES",
+      "icon": "🪪",
+      "summary": "Los permisos de países no UE/EEE pueden ser válidos si están redactados en castellano o acompañados de traducción oficial, siempre que se cumplan los demás requisitos.",
+      "checks": [
+        "Comprobar país no UE/EEE.",
+        "Comprobar permiso vigente.",
+        "Comprobar castellano o traducción oficial.",
+        "Comprobar edad mínima española para el permiso equivalente.",
+        "Comprobar que no han pasado más de seis meses desde la residencia normal en España."
+      ],
+      "result": "Puede conducir de forma orientativa si cumple idioma/traducción, vigencia, edad y plazo de seis meses.",
+      "professionalWarning": "Superado el plazo de seis meses desde residencia normal, deja de ser válido para conducir en España."
+    },
+    {
+      "id": "third_country_geneva_vienna",
+      "title": "Ginebra / Viena",
+      "subtitle": "Modelo internacional reconocido",
+      "status": "conditional",
+      "badge": "ANEXOS",
+      "icon": "📘",
+      "summary": "También pueden ser válidos los permisos expedidos conforme al Anexo 9 de la Convención de Ginebra o Anexo 6 de la Convención de Viena, o con diferencias no esenciales.",
+      "checks": [
+        "Comprobar si el modelo se ajusta a Ginebra o Viena.",
+        "Comprobar documento físico y categorías.",
+        "Comparar con PRADO si hay dudas documentales.",
+        "Comprobar vigencia.",
+        "Comprobar plazo de seis meses desde residencia normal en España."
+      ],
+      "result": "Puede ser válido si se ajusta al modelo reconocido y cumple requisitos de vigencia, edad y residencia.",
+      "professionalWarning": "La apariencia documental debe verificarse con prudencia. PRADO ayuda a comparar modelos, pero no confirma por sí solo validez administrativa."
+    },
+    {
+      "id": "expired_six_months",
+      "title": "Más de 6 meses",
+      "subtitle": "Desde residencia normal",
+      "status": "not_valid",
+      "badge": "NO VÁLIDO",
+      "icon": "⛔",
+      "summary": "Transcurrido el plazo máximo de seis meses desde que el titular adquiere residencia normal en España, los permisos de terceros países dejan de ser válidos para conducir en España.",
+      "checks": [
+        "Comprobar fecha de adquisición de residencia normal en España.",
+        "Comprobar fecha actual o fecha de intervención.",
+        "Comprobar si existe canje posible.",
+        "Comprobar si el país tiene convenio.",
+        "Si no hay convenio, deberá obtener permiso español."
+      ],
+      "result": "No orientar como válido para conducir si han pasado más de seis meses desde la residencia normal.",
+      "professionalWarning": "Pasado el plazo, valorar canje si existe convenio o la obtención de un permiso español si no fuera posible el canje."
+    }
+  ],
+  "assistantQuestions": [
+    {
+      "id": "isEuEea",
+      "question": "¿El permiso está expedido por un país de la UE o EEE?",
+      "yesResult": "Si está vigente, en principio es válido para conducir en España.",
+      "noNext": "checkInternationalOrThirdCountry"
+    },
+    {
+      "id": "isValid",
+      "question": "¿El permiso está en vigor?",
+      "yesResult": "Continúa con el resto de comprobaciones.",
+      "noResult": "No orientar como válido si el permiso está caducado o no vigente."
+    },
+    {
+      "id": "hasInternationalPermit",
+      "question": "¿Aporta permiso internacional junto al permiso extranjero original y pasaporte?",
+      "yesResult": "Puede servir como documento complementario si está vigente.",
+      "noResult": "Comprobar si el permiso extranjero está en castellano, traducido oficialmente o se ajusta a Ginebra/Viena."
+    },
+    {
+      "id": "hasSpanishOrOfficialTranslation",
+      "question": "¿Está redactado en castellano o acompañado de traducción oficial?",
+      "yesResult": "Puede cumplir el requisito documental de idioma/traducción.",
+      "noResult": "Revisar si se ajusta a Convención de Ginebra/Viena o si necesita permiso internacional/traducción."
+    },
+    {
+      "id": "sixMonthsResidence",
+      "question": "¿Han pasado más de seis meses desde que adquirió residencia normal en España?",
+      "yesResult": "No orientar como válido para conducir. Revisar canje u obtención de permiso español.",
+      "noResult": "Puede ser válido si cumple vigencia, edad, categoría y requisitos documentales."
+    },
+    {
+      "id": "ageAndCategory",
+      "question": "¿Tiene la edad exigida en España y la categoría habilita el vehículo?",
+      "yesResult": "Resultado orientativo favorable si el resto de requisitos son correctos.",
+      "noResult": "No orientar como válido para esa categoría o vehículo."
+    }
+  ],
+  "professionalNotes": [
+    "Distinguir siempre entre validez para conducir y posibilidad de canje.",
+    "Un país con convenio de canje no significa que el permiso sea válido indefinidamente para conducir en España.",
+    "La residencia normal y el plazo de seis meses son claves para permisos de terceros países.",
+    "El permiso internacional es complementario, no autónomo.",
+    "PRADO sirve para apoyo documental, no para decidir por sí solo la validez administrativa.",
+    "La decisión final debe contrastarse con fuente pública, documentación y circunstancias concretas."
+  ],
+  "notValidCases": [
+    "Permiso caducado o no vigente.",
+    "Permiso alterado, manipulado o no verificable.",
+    "No acredita categoría equivalente al vehículo conducido.",
+    "No cumple edad mínima española para el permiso equivalente.",
+    "Tercer país con más de seis meses desde residencia normal en España.",
+    "Permiso internacional presentado sin permiso extranjero original.",
+    "Permiso no redactado en castellano, sin traducción oficial y sin encaje en Ginebra/Viena cuando sea necesario."
+  ]
+}
