@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "2026.10.12-1",
+  "generatedDate": "2026-10-12",
+  "appDataPolicy": "local-first",
+  "databases": [
+    {
+      "id": "spanish_permits",
+      "fileName": "spanish_permits.json",
+      "title": "Permisos españoles",
+      "databaseVersion": "2026.06.23",
+      "legalRevisionDate": "2026-06-23",
+      "sha256": "dc3706da75e625f6b504448b9f673b791c7e3136f134e6807fcbdab251a3fd6d",
+      "bundled": true,
+      "remoteEnabled": false,
+      "remoteURL": null
+    },
+    {
+      "id": "foreign_permits",
+      "fileName": "foreign_permits.json",
+      "title": "Permisos extranjeros",
+      "databaseVersion": "2026.06.23",
+      "legalRevisionDate": "2026-06-23",
+      "sha256": "4eed449bd69ee3e990472e879349f25d8bd7baa22009f7ce1d0d589fc114b5b0",
+      "bundled": true,
+      "remoteEnabled": false,
+      "remoteURL": null
+    },
+    {
+      "id": "permit_models",
+      "fileName": "permit_models.json",
+      "title": "Modelos de permisos",
+      "databaseVersion": "2026.06.24",
+      "legalRevisionDate": "2026-06-24",
+      "sha256": "2ceffb0bd194efe315ae5161aefb1ea870a42f82cbe7a021e1fc7cebcd5bd5b5",
+      "bundled": true,
+      "remoteEnabled": false,
+      "remoteURL": null
+    },
+    {
+      "id": "exchange_cases",
+      "fileName": "exchange_cases.json",
+      "title": "Canjes oficiales",
+      "databaseVersion": "2026.06.23",
+      "legalRevisionDate": "2026-06-23",
+      "sha256": "9119daa4f936b7207b5cb81d828298d0e15de95245394bff548f8f5d15830107",
+      "bundled": true,
+      "remoteEnabled": false,
+      "remoteURL": null
+    },
+    {
+      "id": "exchange_countries",
+      "fileName": "exchange_countries.json",
+      "title": "Países con convenio",
+      "databaseVersion": "2026.08.09-audited-dgt",
+      "legalRevisionDate": "2026-08-09",
+      "sha256": "252fd4c1eba93c85abadcbb648f00d1100d21f22be85db37431d5a1d175b9925",
+      "bundled": true,
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/exchange_countries.json"
+    },
+    {
+      "id": "foreign_validity_rules",
+      "fileName": "foreign_validity_rules.json",
+      "title": "Permisos extranjeros válidos para conducir en España",
+      "databaseVersion": "2026.06.26-foreign-validity",
+      "legalRevisionDate": "2026-06-26",
+      "sha256": "bf7dec9924db221113243c3819698507e068646be29bfd41ea952059245e810d",
+      "bundled": true,
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/foreign_validity_rules.json"
+    },
+    {
+      "id": "legal_cases",
+      "fileName": "legal_cases.json",
+      "title": "Delito o sanción",
+      "databaseVersion": "2026.06.23",
+      "legalRevisionDate": "2026-06-23",
+      "sha256": "97bb54d29edc4d988be41288868ece581aa6fa032e7b51cde7325ca3592012de",
+      "bundled": true,
+      "remoteEnabled": false,
+      "remoteURL": null
+    },
+    {
+      "id": "sources_metadata",
+      "fileName": "sources_metadata.json",
+      "title": "Fuentes y metadatos",
+      "databaseVersion": "2026.06.23",
+      "legalRevisionDate": "2026-06-23",
+      "sha256": "2a73569ab21786e2cb92c2b6b9f01bddc204732c0602863e47a2e2e9bda16911",
+      "bundled": true,
+      "remoteEnabled": false,
+      "remoteURL": null
+    }
+  ]
+}
