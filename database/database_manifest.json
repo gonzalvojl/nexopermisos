@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026.10.13-1",
+  "manifestVersion": "2026.10.13-2",
   "generatedDate": "2026-10-13",
   "appDataPolicy": "local-first",
   "databases": [
@@ -74,9 +74,9 @@
       "id": "legal_cases",
       "fileName": "legal_cases.json",
       "title": "Delito o sanción",
-      "databaseVersion": "2026.06.23",
+      "databaseVersion": "2026.10.13",
       "legalRevisionDate": "2026-06-23",
-      "sha256": "97bb54d29edc4d988be41288868ece581aa6fa032e7b51cde7325ca3592012de",
+      "sha256": "76068572d962a084a9ba4794a0ff86fe5112fdd429ac970a90aa203fa8c63a10",
       "bundled": true,
       "remoteEnabled": true,
       "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/legal_cases.json"
