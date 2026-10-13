@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "2026.10.12-1",
-  "generatedDate": "2026-10-12",
+  "manifestVersion": "2026.10.13-1",
+  "generatedDate": "2026-10-13",
   "appDataPolicy": "local-first",
   "databases": [
     {
@@ -12,8 +12,8 @@
       "legalRevisionDate": "2026-06-23",
       "sha256": "dc3706da75e625f6b504448b9f673b791c7e3136f134e6807fcbdab251a3fd6d",
       "bundled": true,
-      "remoteEnabled": false,
-      "remoteURL": null
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/spanish_permits.json"
     },
     {
       "id": "foreign_permits",
@@ -23,8 +23,8 @@
       "legalRevisionDate": "2026-06-23",
       "sha256": "4eed449bd69ee3e990472e879349f25d8bd7baa22009f7ce1d0d589fc114b5b0",
       "bundled": true,
-      "remoteEnabled": false,
-      "remoteURL": null
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/foreign_permits.json"
     },
     {
       "id": "permit_models",
@@ -34,8 +34,8 @@
       "legalRevisionDate": "2026-06-24",
       "sha256": "2ceffb0bd194efe315ae5161aefb1ea870a42f82cbe7a021e1fc7cebcd5bd5b5",
       "bundled": true,
-      "remoteEnabled": false,
-      "remoteURL": null
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/permit_models.json"
     },
     {
       "id": "exchange_cases",
@@ -45,8 +45,8 @@
       "legalRevisionDate": "2026-06-23",
       "sha256": "9119daa4f936b7207b5cb81d828298d0e15de95245394bff548f8f5d15830107",
       "bundled": true,
-      "remoteEnabled": false,
-      "remoteURL": null
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/exchange_cases.json"
     },
     {
       "id": "exchange_countries",
@@ -78,8 +78,8 @@
       "legalRevisionDate": "2026-06-23",
       "sha256": "97bb54d29edc4d988be41288868ece581aa6fa032e7b51cde7325ca3592012de",
       "bundled": true,
-      "remoteEnabled": false,
-      "remoteURL": null
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/legal_cases.json"
     },
     {
       "id": "sources_metadata",
@@ -89,8 +89,8 @@
       "legalRevisionDate": "2026-06-23",
       "sha256": "2a73569ab21786e2cb92c2b6b9f01bddc204732c0602863e47a2e2e9bda16911",
       "bundled": true,
-      "remoteEnabled": false,
-      "remoteURL": null
+      "remoteEnabled": true,
+      "remoteURL": "https://raw.githubusercontent.com/gonzalvojl/nexopermisos/refs/heads/main/database/sources_metadata.json"
     }
   ]
 }
