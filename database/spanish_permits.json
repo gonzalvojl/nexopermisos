@@ -1,0 +1,363 @@
+{
+  "databaseVersion": "2026.06.23",
+  "legalRevisionDate": "2026-06-23",
+  "sourceId": "boe_rgc_818_2009",
+  "title": "Permisos españoles",
+  "description": "Base inicial de permisos y autorizaciones de conducción en España.",
+  "permits": [
+    {
+      "id": "am",
+      "code": "AM",
+      "name": "Permiso clase AM",
+      "group": "Ciclomotores",
+      "minimumAge": 15,
+      "summary": "Autoriza ciclomotores de dos o tres ruedas y cuadriciclos ligeros.",
+      "allowedVehicles": [
+        "Ciclomotores de dos ruedas",
+        "Ciclomotores de tres ruedas",
+        "Cuadriciclos ligeros"
+      ],
+      "keyChecks": [
+        "Comprobar edad mínima",
+        "Comprobar restricciones del permiso",
+        "Comprobar tipo de vehículo"
+      ],
+      "professionalNotes": [
+        "Puede existir limitación a ciclomotores de tres ruedas y cuadriciclos ligeros.",
+        "Revisar siempre los códigos o restricciones que figuren en el permiso."
+      ],
+      "riskWarning": "Si la persona nunca ha obtenido permiso o licencia, valorar posible supuesto penal conforme al artículo 384 CP."
+    },
+    {
+      "id": "a1",
+      "code": "A1",
+      "name": "Permiso clase A1",
+      "group": "Motocicletas",
+      "minimumAge": 16,
+      "summary": "Autoriza motocicletas ligeras y triciclos de motor dentro de los límites reglamentarios.",
+      "allowedVehicles": [
+        "Motocicletas de hasta 125 cm³",
+        "Potencia máxima de 11 kW",
+        "Relación potencia/peso máxima de 0,1 kW/kg",
+        "Triciclos de motor cuya potencia máxima no exceda de 15 kW"
+      ],
+      "keyChecks": [
+        "Comprobar cilindrada",
+        "Comprobar potencia",
+        "Comprobar relación potencia/peso",
+        "Comprobar triciclo y potencia máxima"
+      ],
+      "professionalNotes": [
+        "El permiso B con más de tres años permite conducir en España motocicletas de la clase A1, con las condiciones reglamentarias.",
+        "Especial atención a motocicletas modificadas o limitadas."
+      ],
+      "riskWarning": "Si el permiso presentado no habilita para la motocicleta conducida, orientar inicialmente a vía administrativa salvo concurrencia de supuestos del artículo 384 CP."
+    },
+    {
+      "id": "a2",
+      "code": "A2",
+      "name": "Permiso clase A2",
+      "group": "Motocicletas",
+      "minimumAge": 18,
+      "summary": "Autoriza motocicletas de potencia media dentro de los límites reglamentarios.",
+      "allowedVehicles": [
+        "Motocicletas con potencia máxima de 35 kW",
+        "Relación potencia/peso máxima de 0,2 kW/kg",
+        "Motocicletas no derivadas de un vehículo con más del doble de su potencia"
+      ],
+      "keyChecks": [
+        "Comprobar potencia real",
+        "Comprobar limitación",
+        "Comprobar relación potencia/peso",
+        "Comprobar ficha técnica"
+      ],
+      "professionalNotes": [
+        "Especial atención a motocicletas limitadas.",
+        "Debe comprobarse que no derive de una motocicleta con más del doble de la potencia permitida."
+      ],
+      "riskWarning": "La falta de habilitación para una clase concreta debe diferenciarse de no haber obtenido nunca permiso o licencia."
+    },
+    {
+      "id": "a",
+      "code": "A",
+      "name": "Permiso clase A",
+      "group": "Motocicletas",
+      "minimumAge": 20,
+      "summary": "Autoriza motocicletas y triciclos de motor, con condiciones específicas de edad y experiencia.",
+      "allowedVehicles": [
+        "Motocicletas",
+        "Triciclos de motor"
+      ],
+      "keyChecks": [
+        "Comprobar edad",
+        "Comprobar experiencia previa",
+        "Comprobar fecha de obtención",
+        "Comprobar potencia en triciclos"
+      ],
+      "professionalNotes": [
+        "Para triciclos de motor cuya potencia exceda de 15 kW se exige edad mínima de 21 años.",
+        "Requiere experiencia previa con A2 y formación específica en los términos reglamentarios."
+      ],
+      "riskWarning": "Revisar siempre la fecha de obtención y posibles restricciones."
+    },
+    {
+      "id": "b",
+      "code": "B",
+      "name": "Permiso clase B",
+      "group": "Automóviles",
+      "minimumAge": 18,
+      "summary": "Autoriza automóviles ordinarios dentro de límites de masa, plazas y remolques.",
+      "allowedVehicles": [
+        "Automóviles cuya masa máxima autorizada no exceda de 3500 kg",
+        "Vehículos diseñados y construidos para transportar no más de 8 pasajeros además del conductor",
+        "Conjuntos con remolque dentro de los límites reglamentarios",
+        "Motocicletas de clase A1 en España si el permiso B tiene más de tres años, con condiciones reglamentarias"
+      ],
+      "keyChecks": [
+        "Comprobar MMA",
+        "Comprobar número de plazas",
+        "Comprobar remolque",
+        "Comprobar antigüedad del permiso B para motocicletas A1",
+        "Comprobar edad de 21 años para triciclos de más de 15 kW"
+      ],
+      "professionalNotes": [
+        "Especial atención a furgones, autocaravanas, remolques y conjuntos.",
+        "La equivalencia B-A1 opera en España y debe comprobarse la antigüedad del permiso.",
+        "Los remolques exigen revisar MMA del vehículo tractor, del remolque y del conjunto."
+      ],
+      "riskWarning": "Conducir un vehículo para el que el B no habilita suele orientar a vía administrativa, salvo supuestos específicos del artículo 384 CP."
+    },
+    {
+      "id": "be",
+      "code": "B+E",
+      "name": "Permiso clase B+E",
+      "group": "Automóviles con remolque",
+      "minimumAge": 18,
+      "summary": "Autoriza conjuntos acoplados formados por vehículo tractor de clase B y remolque o semirremolque dentro de los límites reglamentarios.",
+      "allowedVehicles": [
+        "Vehículo tractor autorizado por el permiso B",
+        "Remolque o semirremolque cuya MMA no exceda de 3500 kg"
+      ],
+      "keyChecks": [
+        "Comprobar MMA del tractor",
+        "Comprobar MMA del remolque",
+        "Comprobar MMA del conjunto",
+        "Distinguir B, B96 y B+E"
+      ],
+      "professionalNotes": [
+        "La comprobación de remolques exige revisar ficha técnica y masas máximas autorizadas.",
+        "No basta con ver el tipo de vehículo: debe comprobarse el conjunto completo."
+      ],
+      "riskWarning": "Permiso no habilitante para remolque debe analizarse como posible vía administrativa salvo otros supuestos."
+    },
+    {
+      "id": "c1",
+      "code": "C1",
+      "name": "Permiso clase C1",
+      "group": "Mercancías",
+      "minimumAge": 18,
+      "summary": "Autoriza vehículos de mercancías de más de 3500 kg y hasta 7500 kg de MMA, con límites de plazas y remolque.",
+      "allowedVehicles": [
+        "Automóviles distintos de los que autorizan las clases D1 o D",
+        "Vehículos cuya MMA exceda de 3500 kg y no exceda de 7500 kg",
+        "Vehículos diseñados para transportar no más de 8 pasajeros además del conductor",
+        "Remolque cuya MMA no exceda de 750 kg"
+      ],
+      "keyChecks": [
+        "Comprobar MMA del vehículo",
+        "Comprobar que no se trata de vehículo de viajeros D1 o D",
+        "Comprobar número de plazas",
+        "Comprobar MMA del remolque",
+        "Comprobar si la actividad exige CAP"
+      ],
+      "professionalNotes": [
+        "Muy útil para camiones ligeros, vehículos industriales y determinados servicios profesionales.",
+        "Distinguir permiso de conducción de requisitos profesionales como CAP cuando proceda.",
+        "Revisar ficha técnica y servicio realizado."
+      ],
+      "riskWarning": "La falta de CAP no equivale necesariamente a carecer de permiso de conducción. Comprobar permiso, vehículo y actividad."
+    },
+    {
+      "id": "c1e",
+      "code": "C1+E",
+      "name": "Permiso clase C1+E",
+      "group": "Mercancías con remolque",
+      "minimumAge": 18,
+      "summary": "Autoriza determinados conjuntos acoplados vinculados a C1 o B con remolques de mayor entidad, dentro de los límites reglamentarios.",
+      "allowedVehicles": [
+        "Conjunto formado por vehículo tractor de clase C1 y remolque o semirremolque de más de 750 kg",
+        "Conjunto formado por vehículo tractor de clase B y remolque o semirremolque de más de 3500 kg",
+        "Conjuntos dentro de los límites máximos reglamentarios"
+      ],
+      "keyChecks": [
+        "Comprobar clase del vehículo tractor",
+        "Comprobar MMA del remolque o semirremolque",
+        "Comprobar MMA total del conjunto",
+        "Comprobar ficha técnica de todos los elementos",
+        "Comprobar si la actividad exige CAP"
+      ],
+      "professionalNotes": [
+        "La comprobación exige revisar el conjunto completo, no solo el permiso.",
+        "Distinguir B, B+E, C1 y C1+E.",
+        "Puede ser relevante en vehículos industriales con remolque, caravanas pesadas o conjuntos especiales."
+      ],
+      "riskWarning": "Si el permiso no habilita para el conjunto, orientar a vía administrativa salvo que concurran supuestos del artículo 384 CP."
+    },
+    {
+      "id": "c",
+      "code": "C",
+      "name": "Permiso clase C",
+      "group": "Mercancías",
+      "minimumAge": 21,
+      "summary": "Autoriza vehículos de mercancías de más de 3500 kg de MMA, con remolque ligero y límites de plazas.",
+      "allowedVehicles": [
+        "Automóviles distintos de los que autorizan las clases D1 o D",
+        "Vehículos cuya MMA exceda de 3500 kg",
+        "Vehículos diseñados para transportar no más de 8 pasajeros además del conductor",
+        "Remolque cuya MMA no exceda de 750 kg"
+      ],
+      "keyChecks": [
+        "Comprobar MMA",
+        "Comprobar que no se trata de vehículo de viajeros",
+        "Comprobar número de plazas",
+        "Comprobar remolque",
+        "Comprobar edad y posibles excepciones vinculadas a CAP"
+      ],
+      "professionalNotes": [
+        "La edad mínima puede variar en supuestos vinculados a cualificación profesional.",
+        "Comprobar si la conducción es profesional y si procede CAP.",
+        "Revisar tarjeta de transporte, actividad y documentación cuando corresponda."
+      ],
+      "riskWarning": "Distinguir entre permiso C, CAP, autorización de transporte y otras exigencias administrativas."
+    },
+    {
+      "id": "ce",
+      "code": "C+E",
+      "name": "Permiso clase C+E",
+      "group": "Mercancías con remolque",
+      "minimumAge": 21,
+      "summary": "Autoriza conjuntos acoplados compuestos por vehículo tractor de clase C y remolque o semirremolque de más de 750 kg.",
+      "allowedVehicles": [
+        "Vehículo tractor autorizado por la clase C",
+        "Remolque o semirremolque cuya MMA exceda de 750 kg",
+        "Conjuntos de transporte de mercancías dentro de los límites reglamentarios"
+      ],
+      "keyChecks": [
+        "Comprobar permiso C",
+        "Comprobar remolque o semirremolque",
+        "Comprobar MMA del conjunto",
+        "Comprobar documentación del tractor y del remolque",
+        "Comprobar si procede CAP"
+      ],
+      "professionalNotes": [
+        "Especialmente relevante en cabezas tractoras, semirremolques y conjuntos articulados.",
+        "La edad mínima puede variar en supuestos vinculados a cualificación profesional.",
+        "Revisar siempre la documentación completa del conjunto."
+      ],
+      "riskWarning": "Conjuntos de mercancías requieren comprobación técnica completa. No confundir permiso insuficiente con ausencia absoluta de permiso."
+    },
+    {
+      "id": "d1",
+      "code": "D1",
+      "name": "Permiso clase D1",
+      "group": "Viajeros",
+      "minimumAge": 21,
+      "summary": "Autoriza vehículos de viajeros para más de 8 y hasta 16 pasajeros además del conductor, con límites reglamentarios.",
+      "allowedVehicles": [
+        "Automóviles diseñados y construidos para transportar más de 8 y no más de 16 pasajeros además del conductor",
+        "Vehículos con longitud máxima dentro de los límites reglamentarios",
+        "Remolque cuya MMA no exceda de 750 kg"
+      ],
+      "keyChecks": [
+        "Comprobar número de plazas",
+        "Comprobar longitud del vehículo",
+        "Comprobar remolque",
+        "Comprobar si existe transporte profesional de viajeros",
+        "Comprobar si procede CAP"
+      ],
+      "professionalNotes": [
+        "Especial atención a minibuses y vehículos adaptados para transporte de personas.",
+        "Distinguir uso privado, transporte público, escolar, sanitario u otro servicio profesional.",
+        "Puede requerir CAP para transporte profesional de viajeros."
+      ],
+      "riskWarning": "En vehículos de viajeros, el número de plazas y la actividad realizada son datos esenciales."
+    },
+    {
+      "id": "d1e",
+      "code": "D1+E",
+      "name": "Permiso clase D1+E",
+      "group": "Viajeros con remolque",
+      "minimumAge": 21,
+      "summary": "Autoriza conjuntos acoplados formados por vehículo tractor de clase D1 y remolque de más de 750 kg.",
+      "allowedVehicles": [
+        "Vehículo tractor autorizado por la clase D1",
+        "Remolque cuya MMA exceda de 750 kg",
+        "Conjuntos de viajeros dentro de los límites reglamentarios"
+      ],
+      "keyChecks": [
+        "Comprobar clase D1",
+        "Comprobar remolque",
+        "Comprobar número de plazas",
+        "Comprobar finalidad del transporte",
+        "Comprobar si procede CAP"
+      ],
+      "professionalNotes": [
+        "Revisar documentación del vehículo tractor y del remolque.",
+        "Puede ser relevante en servicios con equipamiento, remolques auxiliares o transporte profesional.",
+        "Distinguir permiso de conducción y requisitos profesionales."
+      ],
+      "riskWarning": "Debe comprobarse el conjunto completo y la actividad realizada."
+    },
+    {
+      "id": "d",
+      "code": "D",
+      "name": "Permiso clase D",
+      "group": "Viajeros",
+      "minimumAge": 24,
+      "summary": "Autoriza vehículos destinados al transporte de más de 8 pasajeros además del conductor.",
+      "allowedVehicles": [
+        "Automóviles diseñados y construidos para transportar más de 8 pasajeros además del conductor",
+        "Remolque cuya MMA no exceda de 750 kg"
+      ],
+      "keyChecks": [
+        "Comprobar número de plazas",
+        "Comprobar remolque",
+        "Comprobar edad",
+        "Comprobar finalidad del transporte",
+        "Comprobar si procede CAP"
+      ],
+      "professionalNotes": [
+        "La edad mínima puede variar en supuestos vinculados a cualificación profesional.",
+        "Especial atención a autobuses, autocares y transporte profesional de viajeros.",
+        "Comprobar CAP y demás requisitos sectoriales cuando proceda."
+      ],
+      "riskWarning": "Distinguir permiso D, CAP, autorización de transporte y demás requisitos administrativos."
+    },
+    {
+      "id": "de",
+      "code": "D+E",
+      "name": "Permiso clase D+E",
+      "group": "Viajeros con remolque",
+      "minimumAge": 24,
+      "summary": "Autoriza conjuntos acoplados formados por vehículo tractor de clase D y remolque de más de 750 kg.",
+      "allowedVehicles": [
+        "Vehículo tractor autorizado por la clase D",
+        "Remolque cuya MMA exceda de 750 kg",
+        "Conjuntos de transporte de viajeros con remolque dentro de los límites reglamentarios"
+      ],
+      "keyChecks": [
+        "Comprobar permiso D",
+        "Comprobar remolque",
+        "Comprobar número de plazas",
+        "Comprobar documentación del conjunto",
+        "Comprobar si procede CAP"
+      ],
+      "professionalNotes": [
+        "La edad mínima puede variar en supuestos vinculados a cualificación profesional.",
+        "Revisar la finalidad del transporte y la documentación del conjunto completo.",
+        "Especial atención a transporte profesional de viajeros con remolque."
+      ],
+      "riskWarning": "Requiere comprobación del conjunto, plazas, actividad profesional y posibles exigencias adicionales."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "databaseVersion": "2026.06.24",
+  "legalRevisionDate": "2026-06-24",
+  "title": "Modelos de permisos",
+  "description": "Consulta orientativa sobre modelos de permisos, formatos, datos visibles, códigos y comprobaciones profesionales.",
+  "items": [
+    {
+      "id": "spanish_eu_card",
+      "title": "Permiso español formato tarjeta",
+      "category": "España / Unión Europea",
+      "badge": "ES",
+      "status": "modelo_principal",
+      "summary": "Permiso expedido en España en formato tarjeta, ajustado al modelo de permiso de conducción de la Unión Europea. Deben revisarse datos personales, clases autorizadas, fechas, códigos y posibles restricciones.",
+      "visibleFields": [
+        "Apellidos y nombre.",
+        "Fecha y lugar de nacimiento.",
+        "Fecha de expedición.",
+        "Fecha de caducidad.",
+        "Número de permiso.",
+        "Fotografía y firma.",
+        "Categorías autorizadas.",
+        "Fechas de validez por categoría.",
+        "Códigos armonizados o nacionales."
+      ],
+      "keyChecks": [
+        "Comprobar vigencia general del documento.",
+        "Comprobar vigencia de la categoría concreta.",
+        "Comprobar que la categoría habilita para el vehículo conducido.",
+        "Comprobar códigos restrictivos.",
+        "Comprobar pérdida de vigencia, privación judicial o suspensión si procede.",
+        "Contrastar con bases oficiales cuando sea necesario."
+      ],
+      "professionalWarning": "La existencia física del permiso no garantiza por sí sola la habilitación. Debe comprobarse categoría, vigencia, restricciones y situación administrativa."
+    },
+    {
+      "id": "eu_eea_permit",
+      "title": "Permiso UE / EEE",
+      "category": "Unión Europea / Espacio Económico Europeo",
+      "badge": "UE/EEE",
+      "status": "modelo_valido_revisar",
+      "summary": "Permiso expedido por un Estado miembro de la Unión Europea o del Espacio Económico Europeo. Puede ser válido para conducir en España mientras esté en vigor, con revisión de clase, edad, restricciones y residencia cuando proceda.",
+      "visibleFields": [
+        "País emisor.",
+        "Datos identificativos del titular.",
+        "Número del permiso.",
+        "Categorías autorizadas.",
+        "Fechas de expedición y caducidad.",
+        "Códigos armonizados.",
+        "Restricciones por categoría."
+      ],
+      "keyChecks": [
+        "Comprobar país emisor UE/EEE.",
+        "Comprobar vigencia.",
+        "Comprobar clase equivalente.",
+        "Comprobar edad requerida en España.",
+        "Comprobar códigos o restricciones.",
+        "Comprobar si procede inscripción, renovación o sustitución."
+      ],
+      "professionalWarning": "No debe tratarse igual que un permiso de tercer país. Los permisos UE/EEE tienen régimen propio, pero siempre debe revisarse vigencia, equivalencia y restricciones."
+    },
+    {
+      "id": "international_permit",
+      "title": "Permiso internacional",
+      "category": "Documento complementario",
+      "badge": "INT.",
+      "status": "complementario",
+      "summary": "Documento complementario para conducir fuera del país de expedición. No debe valorarse de forma aislada: debe acompañarse del permiso nacional original en vigor y, cuando proceda, del pasaporte o documento identificativo.",
+      "visibleFields": [
+        "País u organismo expedidor.",
+        "Datos del titular.",
+        "Fecha de expedición.",
+        "Fecha de validez.",
+        "Categorías o equivalencias autorizadas.",
+        "Referencia al permiso nacional base.",
+        "Formato multilingüe o traducción del permiso base."
+      ],
+      "keyChecks": [
+        "Comprobar permiso nacional base.",
+        "Comprobar que el permiso nacional está en vigor.",
+        "Comprobar vigencia del permiso internacional.",
+        "Comprobar identidad del titular.",
+        "Comprobar categorías equivalentes.",
+        "Comprobar condiciones de uso en España."
+      ],
+      "professionalWarning": "El permiso internacional no sustituye al permiso nacional base. Debe comprobarse siempre junto con el documento original que lo sustenta."
+    },
+    {
+      "id": "third_country_physical_permit",
+      "title": "Permiso de tercer país",
+      "category": "Extranjero no UE/EEE",
+      "badge": "3º PAÍS",
+      "status": "revisar_condiciones",
+      "summary": "Permiso expedido por un país no perteneciente a la Unión Europea ni al Espacio Económico Europeo. Su validez en España puede depender de convenio, residencia, plazo, traducción oficial, permiso internacional y vigencia.",
+      "visibleFields": [
+        "País emisor.",
+        "Datos del titular.",
+        "Número de permiso.",
+        "Categorías o clases nacionales.",
+        "Fechas de expedición y caducidad.",
+        "Restricciones nacionales.",
+        "Soportes de traducción o permiso internacional si proceden."
+      ],
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar si existe convenio de canje.",
+        "Comprobar residencia normal en España.",
+        "Comprobar plazo desde residencia.",
+        "Comprobar vigencia.",
+        "Comprobar necesidad de traducción o permiso internacional.",
+        "Comprobar equivalencia con clases españolas."
+      ],
+      "professionalWarning": "No concluir automáticamente vía penal. Si la persona obtuvo permiso en otro país, puede ser un problema de validez administrativa en España."
+    },
+    {
+      "id": "harmonized_codes",
+      "title": "Códigos armonizados",
+      "category": "Restricciones y adaptaciones",
+      "badge": "CÓD.",
+      "status": "comprobacion_obligada",
+      "summary": "Los códigos del permiso reflejan restricciones, adaptaciones, limitaciones o menciones relevantes. En el modelo UE, los códigos 1 a 99 son armonizados y los códigos 100 y posteriores son nacionales.",
+      "visibleFields": [
+        "Columna o apartado de códigos.",
+        "Código asociado a una categoría concreta.",
+        "Restricción personal.",
+        "Adaptación del vehículo.",
+        "Limitación administrativa.",
+        "Código nacional cuando proceda."
+      ],
+      "keyChecks": [
+        "Comprobar si el código afecta a la categoría utilizada.",
+        "Comprobar si exige adaptación del vehículo.",
+        "Comprobar si limita horario, radio, velocidad o condiciones.",
+        "Comprobar si es código armonizado o nacional.",
+        "Comprobar incumplimiento de la restricción si procede."
+      ],
+      "professionalWarning": "Una categoría aparentemente válida puede quedar limitada por códigos. Deben leerse siempre antes de concluir que el conductor está habilitado."
+    },
+    {
+      "id": "temporary_authorization",
+      "title": "Autorización temporal o provisional",
+      "category": "Documento provisional",
+      "badge": "TEMP.",
+      "status": "documento_temporal",
+      "summary": "Documento provisional o temporal que puede acreditar una autorización mientras se expide, renueva o sustituye el permiso definitivo. Debe comprobarse alcance, fecha, categoría y validez territorial.",
+      "visibleFields": [
+        "Órgano emisor.",
+        "Identidad del titular.",
+        "Fecha de expedición.",
+        "Fecha de validez o caducidad.",
+        "Categoría autorizada.",
+        "Condiciones o limitaciones.",
+        "Referencia al expediente."
+      ],
+      "keyChecks": [
+        "Comprobar autenticidad del documento.",
+        "Comprobar vigencia temporal.",
+        "Comprobar categoría autorizada.",
+        "Comprobar si tiene validez territorial limitada.",
+        "Comprobar si sustituye a un permiso previo.",
+        "Contrastar con bases oficiales si hay duda."
+      ],
+      "professionalWarning": "Las autorizaciones temporales deben revisarse con especial cuidado: no siempre equivalen a permiso definitivo para todos los supuestos."
+    },
+    {
+      "id": "digital_or_app_support",
+      "title": "Soporte digital o app",
+      "category": "Presentación digital",
+      "badge": "DIG.",
+      "status": "soporte_digital",
+      "summary": "El conductor puede mostrar información del permiso en soporte digital cuando exista una herramienta oficial habilitada. Debe comprobarse que no se trata de una imagen, captura o documento manipulado.",
+      "visibleFields": [
+        "Aplicación u origen oficial.",
+        "Datos del titular.",
+        "Categorías autorizadas.",
+        "Vigencia.",
+        "Código QR o mecanismo de verificación si existe.",
+        "Estado actualizado del permiso."
+      ],
+      "keyChecks": [
+        "Comprobar que procede de una fuente oficial.",
+        "Evitar aceptar simples capturas sin verificación.",
+        "Comprobar vigencia y categoría.",
+        "Comprobar identidad.",
+        "Contrastar con bases oficiales si hay dudas.",
+        "Comprobar restricciones o incidencias."
+      ],
+      "professionalWarning": "Una captura de pantalla no debe tratarse igual que una comprobación oficial o una presentación digital verificable."
+    }
+  ]
+}

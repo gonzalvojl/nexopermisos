@@ -1,0 +1,125 @@
+{
+  "databaseVersion": "2026.06.23",
+  "legalRevisionDate": "2026-06-23",
+  "title": "Canjes oficiales",
+  "description": "Consulta orientativa sobre supuestos de canje de permisos extranjeros en España.",
+  "items": [
+    {
+      "id": "country_with_agreement",
+      "title": "País con convenio de canje",
+      "category": "Convenio bilateral",
+      "badge": "CONVENIO",
+      "status": "canje_posible",
+      "summary": "Cuando el país emisor tiene convenio de canje con España, el permiso puede ser canjeable si cumple los requisitos oficiales, residencia, fecha de obtención, vigencia y equivalencia.",
+      "keyChecks": [
+        "Comprobar si el país aparece en la lista oficial de países con convenio.",
+        "Comprobar que el permiso está vigente.",
+        "Comprobar que el permiso fue obtenido antes de adquirir residencia legal en España, salvo excepción aplicable.",
+        "Comprobar la categoría o clase que se pretende canjear.",
+        "Comprobar si exige pruebas adicionales.",
+        "Comprobar documentación exigida por DGT."
+      ],
+      "professionalWarning": "No basta con que el país tenga convenio. Deben comprobarse fecha de obtención, residencia, vigencia, categoría y requisitos concretos."
+    },
+    {
+      "id": "a_b_categories",
+      "title": "Permisos A y B",
+      "category": "Motocicletas y turismos",
+      "badge": "A / B",
+      "status": "normalmente_sin_prueba",
+      "summary": "En términos generales, los permisos que solo incluyen autorizaciones de tipo A y B suelen tener un trámite más simple que los permisos profesionales, aunque debe revisarse siempre la tabla oficial del país.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar clases A o B incluidas.",
+        "Comprobar equivalencia con clases españolas.",
+        "Comprobar vigencia.",
+        "Comprobar residencia y fecha de obtención.",
+        "Comprobar posibles restricciones."
+      ],
+      "professionalWarning": "La regla general puede variar según país y acuerdo. Revisar siempre tabla oficial de DGT."
+    },
+    {
+      "id": "c_d_categories",
+      "title": "Permisos C y D",
+      "category": "Permisos profesionales",
+      "badge": "C / D",
+      "status": "puede_exigir_pruebas",
+      "summary": "Los permisos profesionales de camión o autobús pueden exigir pruebas adicionales según país, categoría y acuerdo de canje.",
+      "keyChecks": [
+        "Comprobar si la clase C o D es canjeable.",
+        "Comprobar si exige prueba teórica.",
+        "Comprobar si exige prueba práctica.",
+        "Comprobar documentación profesional exigida.",
+        "Comprobar vigencia del permiso.",
+        "Comprobar residencia y fecha de obtención."
+      ],
+      "professionalWarning": "No asumir canje automático. Las clases profesionales suelen requerir comprobaciones adicionales."
+    },
+    {
+      "id": "obtained_after_residency",
+      "title": "Permiso obtenido siendo ya residente en España",
+      "category": "Fecha de obtención",
+      "badge": "RESID.",
+      "status": "alto_riesgo_no_canje",
+      "summary": "Si el permiso fue obtenido en el país de origen cuando la persona ya era residente legal en España, puede no ser canjeable, salvo excepciones específicas.",
+      "keyChecks": [
+        "Comprobar fecha exacta de obtención del permiso.",
+        "Comprobar fecha de residencia legal o residencia normal en España.",
+        "Comprobar país emisor.",
+        "Comprobar si existe excepción aplicable.",
+        "Comprobar documentación oficial."
+      ],
+      "professionalWarning": "Este punto es crítico. La fecha de obtención del permiso y la fecha de residencia pueden determinar si procede o no el canje."
+    },
+    {
+      "id": "andorra_korea_japan_switzerland_monaco",
+      "title": "Andorra, Corea, Japón, Suiza y Mónaco",
+      "category": "Procedimiento específico",
+      "badge": "ESPEC.",
+      "status": "procedimiento_especifico",
+      "summary": "Estos países tienen un tratamiento específico de canje que exige revisar condiciones concretas, traducción en determinados casos y situación de residencia.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar si el permiso fue obtenido antes de residencia en España.",
+        "Comprobar si requiere traducción oficial.",
+        "Comprobar vigencia del permiso.",
+        "Comprobar documentación exigida.",
+        "Comprobar plazo máximo de validez del permiso extranjero tras residencia."
+      ],
+      "professionalWarning": "Revisar siempre la página oficial específica del país antes de orientar el caso."
+    },
+    {
+      "id": "eu_eea_exchange",
+      "title": "Permiso UE / EEE",
+      "category": "Unión Europea / EEE",
+      "badge": "UE / EEE",
+      "status": "canje_o_inscripcion",
+      "summary": "Los permisos de la Unión Europea y del Espacio Económico Europeo tienen régimen propio. Pueden ser válidos para conducir en España mientras estén en vigor, sin perjuicio de inscripción, renovación o sustitución cuando proceda.",
+      "keyChecks": [
+        "Comprobar país UE o EEE.",
+        "Comprobar vigencia.",
+        "Comprobar residencia en España.",
+        "Comprobar necesidad de inscripción, renovación o sustitución.",
+        "Comprobar restricciones o códigos armonizados."
+      ],
+      "professionalWarning": "No tratar igual un permiso UE/EEE que un permiso de tercer país. Debe revisarse el régimen específico."
+    },
+    {
+      "id": "professional_without_agreement",
+      "title": "Permisos profesionales de países sin convenio",
+      "category": "Supuesto especial",
+      "badge": "PROF.",
+      "status": "revisar_especial",
+      "summary": "Determinados permisos profesionales de países sin convenio pueden tener vías específicas si se cumplen requisitos laborales y documentales.",
+      "keyChecks": [
+        "Comprobar país sin convenio.",
+        "Comprobar permiso profesional.",
+        "Comprobar experiencia o contratación como conductor profesional.",
+        "Comprobar documentación exigida.",
+        "Comprobar vigencia y equivalencia.",
+        "Comprobar requisitos específicos de DGT."
+      ],
+      "professionalWarning": "Debe revisarse como supuesto especial. No aplicar automáticamente las reglas de países con convenio."
+    }
+  ]
+}

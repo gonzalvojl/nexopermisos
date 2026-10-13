@@ -1,0 +1,42 @@
+{
+  "databaseVersion": "2026.06.23",
+  "appName": "NexoPermisos",
+  "legalRevisionDate": "2026-06-23",
+  "mode": "offline",
+  "sources": [
+    {
+      "id": "boe_rgc_818_2009",
+      "name": "Reglamento General de Conductores",
+      "legalReference": "Real Decreto 818/2009, de 8 de mayo",
+      "publisher": "BOE",
+      "category": "Permisos españoles",
+      "description": "Norma base para clases de permisos, licencias, requisitos, equivalencias y autorización para conducir en España."
+    },
+    {
+      "id": "dgt_canjes",
+      "name": "DGT - Canjes de permisos extranjeros",
+      "legalReference": "Información oficial DGT",
+      "publisher": "Dirección General de Tráfico",
+      "category": "Permisos extranjeros y canjes",
+      "description": "Información oficial sobre permisos extranjeros válidos en España, países con convenio y procedimiento de canje."
+    },
+    {
+      "id": "boe_cp_384",
+      "name": "Código Penal",
+      "legalReference": "Ley Orgánica 10/1995, de 23 de noviembre. Artículo 384",
+      "publisher": "BOE",
+      "category": "Vía penal",
+      "description": "Supuestos de conducción con pérdida de vigencia por puntos, privación judicial o sin haber obtenido nunca permiso o licencia."
+    },
+    {
+      "id": "boe_lsv_6_2015",
+      "name": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "legalReference": "Real Decreto Legislativo 6/2015, de 30 de octubre",
+      "publisher": "BOE",
+      "category": "Vía administrativa",
+      "description": "Norma base para infracciones, sanciones, autorizaciones administrativas y régimen de circulación."
+    }
+  ],
+  "professionalDisclaimer": "La aplicación ofrece una orientación profesional basada en fuentes oficiales. El resultado debe contrastarse siempre con la situación administrativa, vigencia, notificaciones, resoluciones judiciales, país emisor, residencia y circunstancias concretas.",
+  "productionWarning": "Antes de publicar en producción debe revisarse toda la base de datos contra el texto consolidado vigente de BOE y la información actualizada de DGT."
+}

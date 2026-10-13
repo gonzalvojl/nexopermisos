@@ -1,0 +1,135 @@
+{
+  "databaseVersion": "2026.06.23",
+  "legalRevisionDate": "2026-06-23",
+  "title": "Delito o sanción",
+  "description": "Árbol inicial de supuestos para orientar entre posible vía penal y vía administrativa.",
+  "cases": [
+    {
+      "id": "never_obtained",
+      "title": "Nunca obtuvo permiso o licencia",
+      "category": "possible_criminal_offence",
+      "severity": "high",
+      "legalRoute": "penal",
+      "legalReference": "Artículo 384 Código Penal",
+      "resultTitle": "Indicios de posible ilícito penal",
+      "resultText": "La conducción de vehículo a motor o ciclomotor sin haber obtenido nunca permiso o licencia puede encajar en el artículo 384 del Código Penal.",
+      "requiredChecks": [
+        "Comprobar que nunca obtuvo permiso o licencia en España",
+        "Comprobar posibles permisos extranjeros válidos",
+        "Comprobar identidad",
+        "Comprobar vehículo conducido",
+        "Comprobar vigencia de bases oficiales"
+      ],
+      "professionalWarning": "No concluir automáticamente. Deben comprobarse permisos extranjeros, canjes, equivalencias y cualquier autorización válida."
+    },
+    {
+      "id": "loss_points",
+      "title": "Pérdida de vigencia por pérdida total de puntos",
+      "category": "possible_criminal_offence",
+      "severity": "high",
+      "legalRoute": "penal",
+      "legalReference": "Artículo 384 Código Penal",
+      "resultTitle": "Indicios de posible ilícito penal",
+      "resultText": "Conducir tras la pérdida de vigencia del permiso por pérdida total de puntos puede encajar en el artículo 384 del Código Penal.",
+      "requiredChecks": [
+        "Comprobar pérdida de vigencia declarada",
+        "Comprobar notificación",
+        "Comprobar fechas",
+        "Comprobar recuperación o nuevo permiso",
+        "Comprobar bases oficiales"
+      ],
+      "professionalWarning": "La notificación, firmeza y vigencia de la pérdida son elementos especialmente relevantes."
+    },
+    {
+      "id": "judicial_ban",
+      "title": "Privación judicial del derecho a conducir",
+      "category": "possible_criminal_offence",
+      "severity": "high",
+      "legalRoute": "penal",
+      "legalReference": "Artículo 384 Código Penal",
+      "resultTitle": "Indicios de posible ilícito penal",
+      "resultText": "Conducir durante el periodo de privación cautelar o definitiva acordada judicialmente puede encajar en el artículo 384 del Código Penal.",
+      "requiredChecks": [
+        "Comprobar resolución judicial",
+        "Comprobar periodo de privación",
+        "Comprobar firmeza o medida cautelar",
+        "Comprobar fechas",
+        "Comprobar vehículo conducido"
+      ],
+      "professionalWarning": "Debe verificarse documentalmente la resolución judicial y su vigencia temporal."
+    },
+    {
+      "id": "expired_permit",
+      "title": "Permiso caducado",
+      "category": "administrative_case",
+      "severity": "medium",
+      "legalRoute": "administrativa",
+      "legalReference": "Ley de Seguridad Vial / Reglamento General de Conductores",
+      "resultTitle": "Posible vía administrativa",
+      "resultText": "La conducción con permiso caducado suele orientar a vía administrativa, sin perjuicio de otros supuestos concurrentes.",
+      "requiredChecks": [
+        "Comprobar fecha de caducidad",
+        "Comprobar clase de permiso",
+        "Comprobar si existe pérdida de vigencia",
+        "Comprobar si existe privación judicial",
+        "Comprobar si el permiso habilita para el vehículo"
+      ],
+      "professionalWarning": "Distinguir caducidad de pérdida de vigencia por puntos o privación judicial."
+    },
+    {
+      "id": "permit_not_valid_for_vehicle",
+      "title": "Permiso no habilitante para el vehículo",
+      "category": "administrative_case",
+      "severity": "medium",
+      "legalRoute": "administrativa",
+      "legalReference": "Ley de Seguridad Vial / Reglamento General de Conductores",
+      "resultTitle": "Posible vía administrativa",
+      "resultText": "Cuando el conductor tiene permiso, pero no habilita para el vehículo concreto, debe diferenciarse de los supuestos penales del artículo 384 CP.",
+      "requiredChecks": [
+        "Comprobar permiso presentado",
+        "Comprobar vehículo conducido",
+        "Comprobar ficha técnica",
+        "Comprobar equivalencias",
+        "Comprobar si nunca obtuvo permiso o licencia"
+      ],
+      "professionalWarning": "No confundir permiso insuficiente para una clase concreta con no haber obtenido nunca permiso o licencia."
+    },
+    {
+      "id": "foreign_permit_out_of_conditions",
+      "title": "Permiso extranjero fuera de condiciones",
+      "category": "administrative_case",
+      "severity": "medium",
+      "legalRoute": "administrativa",
+      "legalReference": "DGT / Reglamento General de Conductores / Ley de Seguridad Vial",
+      "resultTitle": "Revisar validez en España",
+      "resultText": "Un permiso extranjero puede no ser válido para conducir en España por residencia, plazo, falta de canje, falta de traducción o falta de permiso internacional cuando proceda.",
+      "requiredChecks": [
+        "Comprobar país emisor",
+        "Comprobar residencia normal en España",
+        "Comprobar fecha de residencia o entrada",
+        "Comprobar convenio de canje",
+        "Comprobar traducción oficial o permiso internacional",
+        "Comprobar vigencia del permiso"
+      ],
+      "professionalWarning": "No tratar automáticamente como delito. Revisar primero si el conductor obtuvo permiso válido en otro país y si el problema es de validez administrativa en España."
+    },
+    {
+      "id": "suspended_administratively",
+      "title": "Suspensión administrativa",
+      "category": "administrative_or_review",
+      "severity": "medium",
+      "legalRoute": "revisar",
+      "legalReference": "Ley de Seguridad Vial / resolución administrativa aplicable",
+      "resultTitle": "Revisión necesaria",
+      "resultText": "La suspensión administrativa debe diferenciarse de pérdida de vigencia por puntos y de privación judicial.",
+      "requiredChecks": [
+        "Comprobar resolución administrativa",
+        "Comprobar fechas",
+        "Comprobar causa de suspensión",
+        "Comprobar si existe pérdida de vigencia",
+        "Comprobar si existe resolución judicial"
+      ],
+      "professionalWarning": "Requiere comprobación específica. No resolver automáticamente como penal."
+    }
+  ]
+}

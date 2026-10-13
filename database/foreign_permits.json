@@ -1,0 +1,122 @@
+{
+  "databaseVersion": "2026.06.23",
+  "legalRevisionDate": "2026-06-23",
+  "title": "Permisos extranjeros",
+  "description": "Consulta orientativa sobre validez de permisos extranjeros para conducir en España.",
+  "items": [
+    {
+      "id": "eu_eea",
+      "title": "Permiso expedido por UE o EEE",
+      "category": "Unión Europea / Espacio Económico Europeo",
+      "status": "generalmente_valido",
+      "badge": "UE / EEE",
+      "summary": "Los permisos expedidos por Estados miembros de la Unión Europea o del Espacio Económico Europeo pueden ser válidos para conducir en España, con comprobación de vigencia, categoría y posibles restricciones.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar vigencia del permiso.",
+        "Comprobar clase o categoría habilitante.",
+        "Comprobar restricciones, códigos armonizados o limitaciones.",
+        "Comprobar residencia normal si procede."
+      ],
+      "professionalWarning": "Debe comprobarse siempre la vigencia, la clase habilitante y las restricciones del permiso."
+    },
+    {
+      "id": "third_country_agreement",
+      "title": "Permiso de país con convenio de canje",
+      "category": "Tercer país con convenio",
+      "status": "revisar_plazo_y_canje",
+      "badge": "CANJE",
+      "summary": "Si el país emisor tiene convenio con España, el permiso puede requerir canje cuando la persona adquiere residencia normal en España y transcurre el plazo aplicable.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar si existe convenio de canje.",
+        "Comprobar fecha de adquisición de residencia normal en España.",
+        "Comprobar si han transcurrido más de seis meses desde la residencia normal.",
+        "Comprobar vigencia del permiso extranjero.",
+        "Comprobar si ya se solicitó o realizó el canje."
+      ],
+      "professionalWarning": "DGT informa de un plazo máximo de seis meses desde la adquisición de residencia normal para determinados permisos extranjeros, tras el cual puede ser necesario el canje."
+    },
+    {
+      "id": "third_country_no_agreement",
+      "title": "Permiso de país sin convenio",
+      "category": "Tercer país sin convenio",
+      "status": "revisar_validez",
+      "badge": "REVISAR",
+      "summary": "Los permisos de países sin convenio requieren especial comprobación de validez en España, residencia, permiso internacional, traducción oficial y vigencia.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar si existe o no convenio con España.",
+        "Comprobar residencia normal o estancia temporal.",
+        "Comprobar permiso internacional si procede.",
+        "Comprobar traducción oficial si procede.",
+        "Comprobar vigencia y clase habilitante."
+      ],
+      "professionalWarning": "No debe concluirse automáticamente vía penal. Puede tratarse de una falta de validez administrativa en España si sí obtuvo permiso en otro país."
+    },
+    {
+      "id": "international_permit",
+      "title": "Permiso internacional",
+      "category": "Permiso internacional",
+      "status": "requiere_permiso_base",
+      "badge": "INT.",
+      "summary": "El permiso internacional normalmente acompaña a un permiso nacional válido. Por sí solo debe comprobarse junto al permiso original y las condiciones de uso.",
+      "keyChecks": [
+        "Comprobar permiso nacional que sirve de base.",
+        "Comprobar vigencia del permiso internacional.",
+        "Comprobar país emisor.",
+        "Comprobar si es exigible traducción o permiso internacional.",
+        "Comprobar residencia o estancia en España."
+      ],
+      "professionalWarning": "El permiso internacional no debe valorarse de forma aislada sin comprobar el permiso nacional original."
+    },
+    {
+      "id": "andorra_switzerland_monaco_japan_korea",
+      "title": "Andorra, Suiza, Mónaco, Japón o Corea",
+      "category": "Países con tratamiento específico",
+      "status": "canje_especifico",
+      "badge": "ESPEC.",
+      "summary": "Algunos países tienen tratamiento específico de canje o reconocimiento, por lo que debe revisarse el procedimiento oficial y la situación de residencia.",
+      "keyChecks": [
+        "Comprobar país emisor.",
+        "Comprobar procedimiento específico en DGT.",
+        "Comprobar residencia normal en España.",
+        "Comprobar plazo desde residencia normal.",
+        "Comprobar vigencia y categoría del permiso."
+      ],
+      "professionalWarning": "Debe revisarse la información oficial actualizada de DGT para cada país."
+    },
+    {
+      "id": "resident_more_than_six_months",
+      "title": "Residente en España más de seis meses",
+      "category": "Residencia normal",
+      "status": "alto_riesgo_administrativo",
+      "badge": "+6 MESES",
+      "summary": "Cuando la persona ha adquirido residencia normal en España, debe comprobarse si el permiso extranjero sigue siendo válido o si debía haberse realizado el canje.",
+      "keyChecks": [
+        "Comprobar fecha de residencia normal.",
+        "Comprobar si han transcurrido más de seis meses.",
+        "Comprobar país emisor y convenio.",
+        "Comprobar solicitud o cita de canje.",
+        "Comprobar vigencia del permiso."
+      ],
+      "professionalWarning": "El plazo de seis meses desde la residencia normal es un punto crítico en la valoración administrativa."
+    },
+    {
+      "id": "student_or_temporary_stay",
+      "title": "Estudiante o estancia temporal",
+      "category": "Estancia no ordinaria",
+      "status": "revisar_situacion",
+      "badge": "ESTANCIA",
+      "summary": "La estancia temporal, estudios o situaciones no ordinarias requieren comprobar si existe residencia normal, duración de la estancia y condiciones concretas.",
+      "keyChecks": [
+        "Comprobar tipo de estancia.",
+        "Comprobar si existe residencia normal en España.",
+        "Comprobar duración de la estancia.",
+        "Comprobar país emisor.",
+        "Comprobar permiso internacional o traducción si procede."
+      ],
+      "professionalWarning": "No aplicar automáticamente el mismo criterio que a residentes ordinarios sin comprobar la situación documental."
+    }
+  ]
+}
